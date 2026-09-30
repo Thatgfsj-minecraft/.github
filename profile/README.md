@@ -20,5 +20,6 @@ Minecraft mod development organization — every mod project by [@Thatgfsj](http
 
 ## 许可 / License
 
-各仓库许可以其根目录 LICENSE 文件为准。
-Each repository's license is defined by its own LICENSE file.
+本组织所有仓库均基于 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)（GNU 通用公共许可证第 3 版）开源发布，以各仓库根目录的 LICENSE 文件为准：你可以自由地使用、学习、修改和分发这些项目，但基于它们修改或二次开发的作品必须同样以 GPL-3.0 协议开源，并保留相应的版权与许可声明。
+
+All repositories in this organization are released under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html), as defined by the LICENSE file at the root of each repository.

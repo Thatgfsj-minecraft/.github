@@ -9,6 +9,7 @@ Minecraft mod development organization — every mod project by [@Thatgfsj](http
 |---|---|
 | [sky-islands](https://github.com/Thatgfsj-minecraft/sky-islands) | **空岛世界**：创建新世界时可选三种内置空岛（经典 / 小型 / 单块），主世界与下界均为虚空（下界抵达时自动生成 5×4×3 萤石平台），末地保持原版，生物群系正常、种子照常。支持 1.21.1 / 1.21.11 × Fabric / NeoForge。 |
 | [handy-shulkers](https://github.com/Thatgfsj-minecraft/handy-shulkers) | **手持潜影盒 & 功能方块**：普通右键直接使用手中的物品——潜影盒打开、末影箱打开、工作台/附魔台/织布机/切石机/制图台/砂轮/锻造台/铁砧显示界面、床原地睡觉（睡向随心）；潜行+右键照常放置；对着有自己界面的方块右键永远保持原版行为。支持 1.21.1 / 1.21.11 × Fabric / NeoForge 四个构建。 |
+| [compressed-blocks](https://github.com/Thatgfsj-minecraft/compressed-blocks) | **压缩方块**：把常见方块 3×3 压成 1~9 重方便携带；压缩工具耐久 9ⁿ 指数上升（六重起不可破坏）、挖掘速度与伤害逐重成长。纯数据驱动、客户端零行为改动，支持 1.21.1 / 1.21.11 × Fabric / NeoForge。 |
 | [mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) | **Minecraft 模组开发技能包**（AI agent 可用 skill）：实战沉淀的开发环境搭建、1.21.1↔1.21.11 双版本 API 差异速查、Fabric/NeoForge 双加载器结构、专用服务器 E2E 测试流程与踩坑手册。 |
 
 ## 技术栈 / Stack

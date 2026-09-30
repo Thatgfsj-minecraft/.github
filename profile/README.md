@@ -16,7 +16,9 @@ Minecraft mod development organization — every mod project by [@Thatgfsj](http
 - 加载器 Loaders：Fabric、NeoForge
 - 版本 Versions：1.21.1、1.21.11（双版本同步维护）
 - 映射 Mappings：Mojmap（官方映射）
+- 语言与构建 Java & Build：Java 21、Gradle（每个子项目独立 Gradle 构建）
 - 测试 Testing：专用服务器（离线模式）+ mineflayer 机器人 + RCON 服务端权威断言
+- 开发技能 Skill：[mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) —— AI agent 可直接加载的模组开发技能包：Phase 0 环境侦察、不凭记忆猜 API、专用服务器 E2E 验证；已沉淀 1.7.10–1.21.11 共 18 个版本的版本卡与 Fabric ↔ NeoForge 差异经验
 
 ## 许可 / License
 

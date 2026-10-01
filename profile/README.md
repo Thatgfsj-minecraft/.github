@@ -10,6 +10,7 @@ Minecraft mod development organization — every mod project by [@Thatgfsj](http
 | [sky-islands](https://github.com/Thatgfsj-minecraft/sky-islands) | Sky Islands 空岛世界：创建新世界时可选的内置空岛类型（经典/小岛/单方块），生物群系正常、种子照常。 |
 | [handy-shulkers](https://github.com/Thatgfsj-minecraft/handy-shulkers) | "拿着就用" 我管你这那的 |
 | [compressed-blocks](https://github.com/Thatgfsj-minecraft/compressed-blocks) | 压缩方块 Compressed Blocks：把常见方块 3×3 压成 1~9 重方便携带；压缩工具耐久 9ⁿ 指数上升（六重起不可破坏）、挖掘速度与伤害逐重成长。 |
+| [cancel_attack_cooldown](https://github.com/Thatgfsj-minecraft/cancel_attack_cooldown) | 信不信我开个连点器给你秒杀 —— 取消攻击冷却的模组，fork 自 [Xiaoyu-2009/cancel_attack_cooldown](https://github.com/Xiaoyu-2009/cancel_attack_cooldown)（1.20.1 Forge）。 |
 | [mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) | Minecraft 模组开发技能包（自用AI agent skill） |
 
 ## 技术栈 / Stack

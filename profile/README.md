@@ -5,22 +5,37 @@ Minecraft mod development organization — every mod project by [@Thatgfsj](http
 
 ## 项目 / Projects
 
-| 仓库 | 简介 |
-|---|---|
-| [sky-islands](https://github.com/Thatgfsj-minecraft/sky-islands) | Sky Islands 空岛世界：创建新世界时可选的内置空岛类型（经典/小岛/单方块），生物群系正常、种子照常。 |
-| [handy-shulkers](https://github.com/Thatgfsj-minecraft/handy-shulkers) | "拿着就用" 我管你这那的 |
-| [compressed-blocks](https://github.com/Thatgfsj-minecraft/compressed-blocks) | 压缩方块 Compressed Blocks：把常见方块 3×3 压成 1~9 重方便携带；压缩工具耐久 9ⁿ 指数上升（六重起不可破坏）、挖掘速度与伤害逐重成长。 |
-| [cancel_attack_cooldown](https://github.com/Thatgfsj-minecraft/cancel_attack_cooldown) | 信不信我开个连点器给你秒杀 —— 取消攻击冷却的模组，fork 自 [Xiaoyu-2009/cancel_attack_cooldown](https://github.com/Xiaoyu-2009/cancel_attack_cooldown)（1.20.1 Forge）。 |
-| [mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) | Minecraft 模组开发技能包（自用AI agent skill） |
+### 自研 / Original
+
+| 仓库 | 简介 | 最新版本 |
+|---|---|---|
+| [sky-islands](https://github.com/Thatgfsj-minecraft/sky-islands) | Sky Islands 空岛世界：创建新世界时可选的内置空岛类型（经典/小岛/单方块），生物群系正常、种子照常。 | v1.5.0 |
+| [handy-shulkers](https://github.com/Thatgfsj-minecraft/handy-shulkers) | "拿着就用" 我管你这那的 | v1.3.0 |
+| [compressed-blocks](https://github.com/Thatgfsj-minecraft/compressed-blocks) | 压缩方块 Compressed Blocks：把常见方块 3×3 压成 1~9 重方便携带；压缩工具耐久 9ⁿ 指数上升（六重起不可破坏）、挖掘速度与伤害逐重成长。 | v0.3.2 |
+| [mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) | Minecraft 模组开发技能包（自用 AI agent skill） | v0.5.0 |
+
+### 移植与分支 / Ports & forks
+
+| 仓库 | 简介 | 最新版本 |
+|---|---|---|
+| [BiggerStacks](https://github.com/Thatgfsj-minecraft/BiggerStacks) | BiggerStacks 的 1.21.11 移植（NeoForge + Fabric），含第三方模组兼容层；上游：[PORTB/BiggerStacks](https://codeberg.org/PORTB/BiggerStacks)。 | 未发布 |
+| [FabricaeExNihilo](https://github.com/Thatgfsj-minecraft/FabricaeExNihilo) | Fabricae Ex Nihilo 的 1.21.11 移植，fork 自 [LordDeatHunter/FabricaeExNihilo](https://github.com/LordDeatHunter/FabricaeExNihilo)。 | v2.0.0-mc.1.21.11 |
+| [cancel_attack_cooldown](https://github.com/Thatgfsj-minecraft/cancel_attack_cooldown) | 信不信我开个连点器给你秒杀 —— 取消攻击冷却的模组，fork 自 [Xiaoyu-2009/cancel_attack_cooldown](https://github.com/Xiaoyu-2009/cancel_attack_cooldown)。 | v1.0.0 |
 
 ## 技术栈 / Stack
 
 - 加载器 Loaders：Fabric、NeoForge
-- 版本 Versions：1.21.1、1.21.11（双版本同步维护）
+- 版本 Versions：1.21.1、1.21.11（双版本同步维护），并向下移植至 1.7.10 / 1.12.2 / 1.16.5 等老版本线
 - 映射 Mappings：Mojmap（官方映射）
 - 语言与构建 Java & Build：Java 21、Gradle（每个子项目独立 Gradle 构建）
 - 测试 Testing：专用服务器（离线模式）+ mineflayer 机器人 + RCON 服务端权威断言
 - 开发技能 Skill：[mc-mod-dev-skill](https://github.com/Thatgfsj-minecraft/mc-mod-dev-skill) —— AI agent 可直接加载的模组开发技能包：Phase 0 环境侦察、不凭记忆猜 API、专用服务器 E2E 验证；已沉淀 1.7.10–1.21.11 共 18 个版本的版本卡与 Fabric ↔ NeoForge 差异经验
+
+## 开发状态 / Status（2026-11-16）
+
+- 活跃开发：compressed-blocks、BiggerStacks、FabricaeExNihilo、sky-islands、handy-shulkers、mc-mod-dev-skill
+- CI 覆盖：handy-shulkers（其余仓库在构建阶段接入）
+- 待办与路线：见各仓库 Issues
 
 ## 许可 / License
 
